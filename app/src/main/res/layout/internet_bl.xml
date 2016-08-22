@@ -1,0 +1,2256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.beardedhen.androidbootstrap.BootstrapWell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Banglalink Internet Packages"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </com.beardedhen.androidbootstrap.BootstrapWell>
+        <com.beardedhen.androidbootstrap.BootstrapWell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:bootstrapSize="sm">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Check Latest Internet Offer :  "
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnInternetBl0"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/btn_bl_action"
+                    android:hint="P"
+                    android:text="@string/fa_automobile"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </com.beardedhen.androidbootstrap.BootstrapWell>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <com.beardedhen.androidbootstrap.BootstrapWell
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:bootstrapSize="sm">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Generic Volume Packs"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </com.beardedhen.androidbootstrap.BootstrapWell>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_top"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Volume"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_top"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Validity"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_top"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Price"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_top"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Auto Renew"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_top"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="W/O Renew"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="3 MB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="1d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="1tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl1"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*518#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl2"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*418#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="7 MB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="1d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="2.5tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl3"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*513#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl4"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*413#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="12 MB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="1d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="4tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl5"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*520#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl6"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*420#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="25 MB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="1d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="8tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl7"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*529#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl8"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*429#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="45 MB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="1d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="10tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl9"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*543#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl10"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*443#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="60 MB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="3d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="15tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl11"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*502#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl12"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*402#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="100 MB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="7d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="20tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl13"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*522#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl14"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*422#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="120 MB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="30d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="50tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl15"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*523#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl16"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*423#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="160 MB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="7d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="30tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl17"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*501#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl18"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*401#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="250 MB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="10d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="75tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl19"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*517#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl20"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*417#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="300 MB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="30d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="99tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl21"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*503#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl22"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*403#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="500 MB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="7d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="100tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl23"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*582#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl24"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*482#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="600 MB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="30d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="150tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl25"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*504#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl26"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*404#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="1 GB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="30d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="210tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl27"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*581#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl28"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*481#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="1.5 GB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="30d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="275tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl29"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*511#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl30"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*411#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="2 GB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="30d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="350tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl31"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*506#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl32"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*406#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="4 GB" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="30d" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="500tk" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl33"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*508#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl34"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*408#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="To Deactivate a pack from this group" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnInternetBl35"
+                        android:layout_width="120dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_bl_action"
+                        android:text="*5000*536#"
+                        android:textColor="#fff"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16sp"
+                android:orientation="vertical">
+
+                <com.beardedhen.androidbootstrap.BootstrapWell
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bootstrapSize="sm">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Smart Volume Packs"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </com.beardedhen.androidbootstrap.BootstrapWell>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_top"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Volume"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_top"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Validity"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_top"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Price"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".1"
+                            android:background="@drawable/layout_custome_top"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Auto Renew"
+                            android:textColor="@color/colorAccent"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".1"
+                            android:background="@drawable/layout_custome_top"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="W/O Renew"
+                            android:textColor="@color/colorAccent"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="200 MB" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="7d" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="50tk" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/layout_custome_mid"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                                android:id="@+id/btnInternetBl36"
+                                android:layout_width="120dp"
+                                android:layout_height="30dp"
+                                android:background="@drawable/btn_bl_action"
+                                android:text="*5000*562#"
+                                android:textColor="#fff"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/layout_custome_mid"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                                android:id="@+id/btnInternetBl37"
+                                android:layout_width="120dp"
+                                android:layout_height="30dp"
+                                android:background="@drawable/btn_bl_action"
+                                android:text="*5000*462#"
+                                android:textColor="#fff"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="500 MB" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="30d" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="109tk" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/layout_custome_mid"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                                android:id="@+id/btnInternetBl38"
+                                android:layout_width="120dp"
+                                android:layout_height="30dp"
+                                android:background="@drawable/btn_bl_action"
+                                android:text="*5000*548#"
+                                android:textColor="#fff"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/layout_custome_mid"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                                android:id="@+id/btnInternetBl39"
+                                android:layout_width="120dp"
+                                android:layout_height="30dp"
+                                android:background="@drawable/btn_bl_action"
+                                android:text="*5000*448#"
+                                android:textColor="#fff"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="1 GB" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="30d" />
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="189tk" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/layout_custome_mid"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                                android:id="@+id/btnInternetBl40"
+                                android:layout_width="120dp"
+                                android:layout_height="30dp"
+                                android:background="@drawable/btn_bl_action"
+                                android:text="*5000*547#"
+                                android:textColor="#fff"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/layout_custome_mid"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                                android:id="@+id/btnInternetBl41"
+                                android:layout_width="120dp"
+                                android:layout_height="30dp"
+                                android:background="@drawable/btn_bl_action"
+                                android:text="*5000*447#"
+                                android:textColor="#fff"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="210dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/layout_custome_mid"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="To Deactivate a pack from this group" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl42"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*5000*549#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16sp"
+                android:orientation="vertical">
+
+                <com.beardedhen.androidbootstrap.BootstrapWell
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:bootstrapSize="sm">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Recharge Packs"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </com.beardedhen.androidbootstrap.BootstrapWell>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_top"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Volume"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_top"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Validity"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_top"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Price"
+                        android:textColor="@color/colorAccent"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="16 MB"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="2d" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="8tk" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="18 MB"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="3d" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="9tk" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="60 MB"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="10d" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="17tk" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="77 MB"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="5d" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="37tk" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="100 MB"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="7d" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="47tk" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="230 MB"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="30d" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="97tk" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="400 MB"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="30d" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="147tk" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="550 MB"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="30d" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="197tk" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="1 GB"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="30d" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="317tk" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="2 GB"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="30d" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="399tk" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="8 GB"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="30d" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="1093tk" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Balance Check :"/>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnInternetBl43"
+                            android:layout_width="120dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/btn_bl_action"
+                            android:text="*124*50#"
+                            android:textColor="#fff"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

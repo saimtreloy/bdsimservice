@@ -1,0 +1,1665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.beardedhen.androidbootstrap.BootstrapWell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Grameen Phone Packages Information"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </com.beardedhen.androidbootstrap.BootstrapWell>
+
+
+        <com.beardedhen.androidbootstrap.BootstrapWell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:bootstrapSize="sm">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:text="Check Current Package :"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnPackageGp0"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="*111*7*2#"
+                    android:textColor="#fff"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </com.beardedhen.androidbootstrap.BootstrapWell>
+
+        <com.beardedhen.androidbootstrap.BootstrapWell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:bootstrapSize="md">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Note : "
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="1. Packages can be changed everyday.\n2. FnF's can be changed any time but a deleted FnF can be added after 15 days."
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+        </com.beardedhen.androidbootstrap.BootstrapWell>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Nischinto"
+                android:textColor="#1976d2"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="GP to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="16.66p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="50p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="No of FnF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="N/A"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="'N' to 4444   "
+                        android:textSize="12sp" />
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnPackageGp1"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_gp_action"
+                        android:hint="N"
+                        android:text="Activate"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Bondhu"
+                android:textColor="#1976d2"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="GP to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="26.5p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="50p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="No of FnF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="1 Super(GP) + 17 (Any)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="FnF (Super)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="5.5p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="FnF (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="11.5p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="'B' to 4444   "
+                        android:textSize="12sp" />
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnPackageGp2"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_gp_action"
+                        android:hint="B"
+                        android:text="Activate"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Djuice"
+                android:textColor="#1976d2"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Community"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="11p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="GP to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="26.5p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="50p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="No of FnF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="10 FnF (Any)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="FnF (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="11.5p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="'D' to 4444   "
+                        android:textSize="12sp" />
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnPackageGp3"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_gp_action"
+                        android:hint="D"
+                        android:text="Activate"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Amontron"
+                android:textColor="#1976d2"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Gp to Gp"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="23.33p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="GP to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="11.66p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="50p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="No of FnF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="1 Super FnF"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="FnF (Super)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="5.5p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="'AM' to 4444   "
+                        android:textSize="12sp" />
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnPackageGp4"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_gp_action"
+                        android:hint="AM"
+                        android:text="Activate"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Smile"
+                android:textColor="#1976d2"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="GP to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="28p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="50p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="No of FnF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="3 FnF (GP)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="FnF (GP)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="11.5p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="'SM' to 4444   "
+                        android:textSize="12sp" />
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnPackageGp5"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_gp_action"
+                        android:hint="SM"
+                        android:text="Activate"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Shohoj"
+                android:textColor="#1976d2"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="GP to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="20p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="50p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="No of FnF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="N/A"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="'S' to 4444   "
+                        android:textSize="12sp" />
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnPackageGp6"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_gp_action"
+                        android:hint="S"
+                        android:text="Activate"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Aapon"
+                android:textColor="#1976d2"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="GP to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="16.6p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="50p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="No of FnF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="N/A"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="'A' to 4444   "
+                        android:textSize="12sp" />
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnPackageGp7"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_gp_action"
+                        android:hint="A"
+                        android:text="Activate"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Spondon"
+                android:textColor="#1976d2"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="GP to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="2.12p / sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="50p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="No of FnF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="N/A"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="'SP' to 4444   "
+                        android:textSize="12sp" />
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnPackageGp8"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_gp_action"
+                        android:hint="SP"
+                        android:text="Activate"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Recharge Offer"
+                android:textColor="#1976d2"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Recharge Tk. 29"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="GP to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="1p / sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="Free MMS"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="50p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="Free Data"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="N/A"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="Validity"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_weight=".1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="4 Days"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Recharge Tk. 39"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="GP to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="1p / sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="Validity"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_weight=".1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="7 Days"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Recharge Tk. 79"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="GP to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="1p / sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="Validity"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_weight=".1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="4 Days"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayoutFnfAr"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.moodybugs.saim.bdsimservices.FnfAirtel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <com.beardedhen.androidbootstrap.BootstrapWell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Airtel FnF Services"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </com.beardedhen.androidbootstrap.BootstrapWell>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:padding="10dp"
+                android:text="How to set Fnf and Gang Number"
+                android:textColor="#555"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_mid"
+                android:padding="10dp"
+                android:text="Dial *121*4*1#, Select'FnF or sFnF and follow instruction thereafter\nOR\nSMS to 7353 as follows" />
+        </LinearLayout>
+
+        <!-- Add Fnf Panel-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:padding="10dp"
+                android:text="ADD FNF"
+                android:textColor="#555"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:padding="10dp"
+                        android:text="Add 016XXAABBCC" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:padding="10dp">
+
+                        <EditText
+                            android:id="@+id/txtAddFnfAr"
+                            android:layout_width="150dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/txtbox_ar_normal"
+                            android:hint="I am text box"
+                            android:padding="5dp"
+                            android:textSize="16dp" />
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnAddFnfImportNumberAr"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toEndOf="@+id/txtAddFnfAr"
+                            android:layout_toRightOf="@+id/txtAddFnfAr"
+                            android:background="@drawable/btn_ar_right_action"
+                            android:padding="5dp"
+                            android:text="@string/fa_arrow_circle_down"
+                            android:textColor="#FFF"
+                            android:textSize="16dp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnAddFnfSendAr"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:text="@string/fa_send"
+                        android:textColor="#fff" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- Add Super Fnf Panel-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:padding="10dp"
+                android:text="CHANGE FNF NUMBER"
+                android:textColor="#555"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="Dial *121*4*3# and follow instruction"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnChangeFnfSendAr"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:text="@string/fa_send"
+                        android:textColor="#fff" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Delete FnF or SFnF-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:padding="10dp"
+                android:text="DELETE FNF/SFNF"
+                android:textColor="#555"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:padding="10dp"
+                        android:text="Delete 016XXAABBCC" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:padding="10dp">
+
+                        <EditText
+                            android:id="@+id/txtDeleteFnfAr"
+                            android:layout_width="150dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/txtbox_ar_normal"
+                            android:hint="I am text box"
+                            android:padding="5dp"
+                            android:textSize="16dp" />
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnDeleteFnfImportNumberAr"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toEndOf="@+id/txtDeleteFnfAr"
+                            android:layout_toRightOf="@+id/txtDeleteFnfAr"
+                            android:background="@drawable/btn_ar_right_action"
+                            android:padding="5dp"
+                            android:text="@string/fa_arrow_circle_down"
+                            android:textColor="#FFF"
+                            android:textSize="16dp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnDeleteFnfSendAr"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:text="@string/fa_send"
+                        android:textColor="#fff" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!--Delete FnF or SFnF End-->
+
+        <!--Change Super FnF Number-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:padding="10dp"
+                android:text="CHECK FNF OR SUPER FNF"
+                android:textColor="#555"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:layout_weight=".1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="Check FnF/SFnF : FF"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnCheckFnfSendAr"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:text="@string/fa_send"
+                        android:textColor="#fff" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

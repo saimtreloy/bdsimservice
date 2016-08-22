@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayoutFnfRobi"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.moodybugs.saim.bdsimservices.FnfRobi">
+
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.beardedhen.androidbootstrap.BootstrapWell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Robi FnF Services"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </com.beardedhen.androidbootstrap.BootstrapWell>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:padding="10dp"
+                android:text="How to set Fnf and Partner Number"
+                android:textColor="#555"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_mid"
+                android:padding="10dp"
+                android:text="Dial *140#, Select'FnF/Partner' and follow instruction thereafter\nOR\nSMS to 8363 as follows" />
+        </LinearLayout>
+
+        <!-- Add Fnf Panel-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:padding="10dp"
+                android:text="ADD FNF"
+                android:textColor="#555"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:padding="10dp"
+                        android:text="A 018XXAABBCC" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:padding="10dp">
+
+                        <EditText
+                            android:id="@+id/txtAddFndRobi"
+                            android:layout_width="150dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/txtbox_ar_normal"
+                            android:hint="I am text box"
+                            android:padding="5dp"
+                            android:textSize="16dp" />
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnAddFnfImportNumberRobi"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toEndOf="@+id/txtAddFndRobi"
+                            android:layout_toRightOf="@+id/txtAddFndRobi"
+                            android:background="@drawable/btn_ar_right_action"
+                            android:padding="5dp"
+                            android:text="@string/fa_arrow_circle_down"
+                            android:textColor="#FFF"
+                            android:textSize="16dp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnAddFnfSendRobi"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:text="@string/fa_send"
+                        android:textColor="#fff" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- Add Super Fnf Panel-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:padding="10dp"
+                android:text="ADD PARTNER NUMBER"
+                android:textColor="#555"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:padding="10dp"
+                        android:text="P 018XXAABBCC" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:padding="10dp">
+
+                        <EditText
+                            android:id="@+id/txtAddSFnfRobi"
+                            android:layout_width="150dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/txtbox_ar_normal"
+                            android:hint="I am text box"
+                            android:padding="5dp"
+                            android:textSize="16dp" />
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnAddSFnfImportNumberRobi"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toEndOf="@+id/txtAddSFnfRobi"
+                            android:layout_toRightOf="@+id/txtAddSFnfRobi"
+                            android:background="@drawable/btn_ar_right_action"
+                            android:padding="5dp"
+                            android:text="@string/fa_arrow_circle_down"
+                            android:textColor="#FFF"
+                            android:textSize="16dp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnAddSFnfSendRobi"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:text="@string/fa_send"
+                        android:textColor="#fff" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Delete FnF or SFnF-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:padding="10dp"
+                android:text="DELETE FNF/PARTNER"
+                android:textColor="#555"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:padding="10dp"
+                        android:text="D 018XXAABBCC" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/layout_custome_mid"
+                        android:padding="10dp">
+
+                        <EditText
+                            android:id="@+id/txtDeleteFnfRobi"
+                            android:layout_width="150dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/txtbox_ar_normal"
+                            android:hint="I am text box"
+                            android:padding="5dp"
+                            android:textSize="16dp" />
+
+                        <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                            android:id="@+id/btnDeleteFnfImportNumberRobi"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toEndOf="@+id/txtDeleteFnfRobi"
+                            android:layout_toRightOf="@+id/txtDeleteFnfRobi"
+                            android:background="@drawable/btn_ar_right_action"
+                            android:padding="5dp"
+                            android:text="@string/fa_arrow_circle_down"
+                            android:textColor="#FFF"
+                            android:textSize="16dp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnDeleteFnfSendRobi"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:text="@string/fa_send"
+                        android:textColor="#fff" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!--Delete FnF or SFnF End-->
+
+        <!--Change Super FnF Number-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:padding="10dp"
+                android:text="CHECK FNF OR PARTNER"
+                android:textColor="#555"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:layout_weight=".1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="Check FnF/PARTNER : F"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnCheckFnfSendRobi"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:text="@string/fa_send"
+                        android:textColor="#fff" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:layout_weight=".1">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="Get Help : H \t\t\t\t\t     "/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnHelpSendRobi"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:text="@string/fa_send"
+                        android:textColor="#fff" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

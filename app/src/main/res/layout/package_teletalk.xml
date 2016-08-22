@@ -1,0 +1,2721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.beardedhen.androidbootstrap.BootstrapWell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Robi Packages Information"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </com.beardedhen.androidbootstrap.BootstrapWell>
+
+
+        <com.beardedhen.androidbootstrap.BootstrapWell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:bootstrapSize="sm">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Check Current Package :  "
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnPackageTl1"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/btn_tl_action"
+                    android:hint="P"
+                    android:text="@string/fa_send"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </com.beardedhen.androidbootstrap.BootstrapWell>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Bornomala"
+                android:textColor="#388e3c"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Tele"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="5p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="10p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Video Call (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="5p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="No of FnF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="N/A"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="30p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="40p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="MMS (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="1tk / MMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Recharge Bonus"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="Recharge 30tk And Get 30 min, 30 SMS, 30 MB"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="Not Possible To Migrate"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Agami"
+                android:textColor="#388e3c"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Tele"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="4.17p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="10p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Video Call (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="4.17p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="No of FnF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="N/A"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="25p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="35p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="MMS (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="1tk / MMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Recharge Bonus"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="Recharge 25tk And Get 25 min, 25 SMS, 25 MB"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="Not Possible To Migrate"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Projonmo"
+                android:textColor="#388e3c"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Tele"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="10p / 10 sec (8am - 12am)"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="5p / 10 sec (12am - 8am)"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="16p / 5 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Video Call (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="4.17p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="No of FnF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="1 FnF (Any)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="FnF (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="4.17p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (FnF)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="20p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="35p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="45p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="MMS (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="1tk / MMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="Not Possible To Migrate"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Youth"
+                android:textColor="#388e3c"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Tele"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="4.5p / 5 sec (8am - 12am)"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="2.5p / 5 sec (12am - 8am)"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="7.5p / 5 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="No of FnF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="3 FnF (Any)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="FnF (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="2.1p / 5 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="FnF (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="5p / 5 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (FnF)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="18p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="30p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="40p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="MMS (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="1tk / MMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="Not Possible To Migrate"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Ekush"
+                android:textColor="#388e3c"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Tele"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="10p / 10 sec (8am - 12am)"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="5p / 10 sec (12am - 8am)"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Any"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="20p / 10 sec (8am - 12am)"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="10p / 10 sec (12am - 8am)"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="No of FnF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="9 FnF (Any)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="FnF (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="4.17p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="FnF (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="11p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (FnF)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="21p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="35p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="45p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="MMS (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="1tk / MMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="'21' to 555   "
+                        android:textSize="12sp" />
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnPackageTl2"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_tl_action"
+                        android:hint="21"
+                        android:text="Activate"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Bijoy"
+                android:textColor="#388e3c"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Tele"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="1.2p / sec (8am - 12am)"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text=".05p / sec (12am - 8am)"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Any"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="1.8p / sec (8am - 12am)"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="1.2p / sec (12am - 8am)"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="No of FnF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="4 FnF (Any)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="FnF (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="4.17p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="FnF (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="1p / sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="35p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="45p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="MMS (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="2tk / MMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="'bij' to 555   "
+                        android:textSize="12sp" />
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnPackageTl3"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_tl_action"
+                        android:hint="bij"
+                        android:text="Activate"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Standard"
+                android:textColor="#388e3c"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Tele"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="26.83p / 10 sec (6pm - 12am)"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="10.03p / 10 sec (12am - 8am)"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="18.20p / 10 sec (8am - 6pm)"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Any"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="31.67p / 10 sec (6pm - 12am)"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="16.78p / 10 sec (12am - 8am)"
+                        android:textSize="12sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".1"
+                        android:background="@drawable/layout_custome_mid"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="18.37p / 10 sec (8am - 6pm)"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="No of FnF"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="N/A"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="MMS"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="2tk / MMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="50p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Voice SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="2tk / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="'nor' to 555   "
+                        android:textSize="12sp" />
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnPackageTl4"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_tl_action"
+                        android:hint="nor"
+                        android:text="Activate"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Shadhin"
+                android:textColor="#388e3c"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Tele"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="12p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="16p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="3 FnF (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="N/A"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="FnF (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="4.17p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="FnF (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="10p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="35p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="50p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="MMS (Tele)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="1tk / MMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="'sha' to 555   "
+                        android:textSize="12sp" />
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnPackageTl5"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_tl_action"
+                        android:hint="sha"
+                        android:text="Activate"
+                        android:textColor="#fff"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Shapla"
+                android:textColor="#388e3c"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="1.5p / sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="50p / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Voice SMS (Any)"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="2tk / SMS (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Migrate"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="Not Possible To Migrate"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Recharge Offer"
+                android:textColor="#388e3c"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Recharge 33tk"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Tele"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="5p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="10p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Free Data"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="33 MB For 1 Day"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Validity"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="10d"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Recharge 73tk"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Tele"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="5p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Tele to Any"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="10p / 10 sec (24hr)"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Free Data"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="73 MB For 3 Days"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    android:text="Validity"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="30d"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

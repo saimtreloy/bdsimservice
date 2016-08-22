@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.beardedhen.androidbootstrap.BootstrapWell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Grameen Phone Bundle Offer"
+                android:textSize="16sp"/>
+        </com.beardedhen.androidbootstrap.BootstrapWell>
+        <com.beardedhen.androidbootstrap.BootstrapWell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:bootstrapSize="sm">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Check Latest Bundle :  "
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp0"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:hint="P"
+                    android:text="@string/fa_automobile"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </com.beardedhen.androidbootstrap.BootstrapWell>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_custome_top"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Volume"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_custome_top"
+            android:gravity="center"
+            android:text="Validity"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_custome_top"
+            android:gravity="center"
+            android:text="Price"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_custome_top"
+            android:gravity="center"
+            android:text="Start"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_custome_top"
+            android:gravity="center"
+            android:text="Stop"
+            android:textStyle="bold" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="20min 5 SMS 5 MB 5 MMS(GP)" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="2d" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="5tk" />
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="@string/fa_send_o"
+                    android:hint="*111*10*1#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="@string/fa_close"
+                    android:hint="*111*10*99#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="17min (Any) 17SMS (GP)" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="1d" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="5.5tk" />
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="@string/fa_send_o"
+                    android:hint="*111*10*3#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="@string/fa_close"
+                    android:hint="*111*10*97#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="60min(Any) 60 SMS 60 MB 60 MMS(GP)" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="5d" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="50tk" />
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="@string/fa_send_o"
+                    android:hint="*111*10*8#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp6"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="@string/fa_close"
+                    android:hint="*111*10*94#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="100 SMS" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="3d" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="5tk" />
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp7"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="@string/fa_send_o"
+                    android:hint="*111*10*6#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="X" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="100 min(GP)\n50 SMS (Any)" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="7d" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="53tk" />
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp8"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="@string/fa_send_o"
+                    android:hint="*111*100#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="X" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="100 Min" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="7d" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="78tk" />
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp9"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="@string/fa_send_o"
+                    android:hint="*111*10*10#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="X" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="100min (GP)" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="15d" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="43tk" />
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp10"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="@string/fa_send_o"
+                    android:hint="*1000*100#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="X" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="750min (GP)" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="15d" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="231tk" />
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp11"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="@string/fa_send_o"
+                    android:hint="*111*750#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="X" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="70min (GP)" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="1d" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="24tk" />
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp12"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="@string/fa_send_o"
+                    android:hint="*111*80##"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="X" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="300min (GP)" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="7d" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="97tk" />
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp13"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="@string/fa_send_o"
+                    android:hint="*111*300#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="X" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="40min (GP)" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="16hr" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="13tk" />
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp14"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="@string/fa_send_o"
+                    android:hint="*111*29#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="X" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight=".1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="6min (GP)" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="4hr" />
+
+            <TextView
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:text="2tk" />
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp15"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="@string/fa_send_o"
+                    android:hint="*1000*6#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleGp16"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_gp_action"
+                    android:text="@string/fa_close"
+                    android:hint="*1000*9#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#555"
+                android:textStyle="bold"
+                android:text="Purchased Item Query Code"
+                android:background="@drawable/layout_custome_top"/>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="5dp"
+                    android:text="GP Min:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleGp17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_gp_action"
+                        android:textColor="#fff"
+                        android:textSize="12sp"
+                        android:padding="5dp"
+                        android:text="*566*22#"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="5dp"
+                    android:text="Any Min:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleGp18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:background="@drawable/btn_gp_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:text="*566*24#"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="5dp"
+                    android:text="GP Sms:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleGp19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:background="@drawable/btn_gp_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:text="*566*2#"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="5dp"
+                    android:text="GP MMS:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleGp20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:background="@drawable/btn_gp_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:text="*566*14#"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="5dp"
+                    android:text="Internet:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleGp21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:background="@drawable/btn_gp_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:text="*567#"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="12sp"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="5dp"
+                    android:text="FB Internet:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleGp22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:background="@drawable/btn_gp_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:text="*566*1#"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

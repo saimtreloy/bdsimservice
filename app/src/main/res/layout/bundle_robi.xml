@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.beardedhen.androidbootstrap.BootstrapWell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Robi Bundle Offer"
+                android:textSize="16sp"/>
+        </com.beardedhen.androidbootstrap.BootstrapWell>
+        <com.beardedhen.androidbootstrap.BootstrapWell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:bootstrapSize="sm">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Check Latest Bundle :  "
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnBundleRb0"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/btn_ar_action"
+                    android:hint="P"
+                    android:text="@string/fa_automobile"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </com.beardedhen.androidbootstrap.BootstrapWell>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Mini Bundle-1 (24hr)"
+                android:background="@drawable/layout_custome_top"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="8min (Robi) + 8 SMS"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Charge : 2tk \t Validity : 6hr"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Start:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb1"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*8666*002#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Mini Bundle-2 (24hr)"
+                android:background="@drawable/layout_custome_top"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="20min (Robi) + 20 SMS"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Charge : 5tk \t Validity : 8hr"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Start:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb2"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*8666*055#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Mini Bundle-3 (24hr)"
+                android:background="@drawable/layout_custome_top"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="40min (Robi) + 40 SMS"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Charge : 10tk \t Validity : 12hr"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Start:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb3"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*8666*1010#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Daily Bundle-1 (12am - 5pm)"
+                android:background="@drawable/layout_custome_top"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="40min (Robi) + 40 SMS"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Charge : 10tk \t Validity : 1d"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Start:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb4"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*8666*02#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Daily Bundle-2 (24hr)"
+                android:background="@drawable/layout_custome_top"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="20min (Robi) + 20 SMS"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Charge : 10tk \t Validity : 1d"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Start:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb5"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*8666*03#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Daily Bundle-3 (24hr)"
+                android:background="@drawable/layout_custome_top"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="12min (All) + 12 SMS + 12 MB"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Charge : 10tk \t Validity : 1d"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Start:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb6"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*8666*12#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Daily Bundle-4 (12am - 5pm)"
+                android:background="@drawable/layout_custome_top"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="16min (All) + 16 SMS"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Charge : 10tk \t Validity : 1d"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Start:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb7"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*8666*016#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Daily Bundle-5 (24hr)"
+                android:background="@drawable/layout_custome_top"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="50min (30 Min Robi + 20 Min All) + 20 SMS +\n100MB (FB And Whatsapp)"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Charge : 20tk \t Validity : 1d"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Start:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb8"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*8666*20#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Weekly Bundle-1 (24hr)"
+                android:background="@drawable/layout_custome_top"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="150 Min (Robi) + 150 SMS"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Charge : 50tk \t Validity : 7d"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Start:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb9"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*8666*50#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Weekly Bundle-2 (24hr)"
+                android:background="@drawable/layout_custome_top"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="350 Min (Robi)"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Charge : 100tk \t Validity : 7d"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Start:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb10"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*8666*008#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Weekly Bundle-3 (24hr)"
+                android:background="@drawable/layout_custome_top"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="70 Min (Any) + 25 SMS + 25 MMS + 26 MB"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Charge : 50tk \t Validity : 1d"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Start:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb11"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*8666*025#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Weekly Bundle-4 (24hr)"
+                android:background="@drawable/layout_custome_top"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="150 Min (Any) + 50 SMS + 50 MMS + 51 MB"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Charge : 100tk \t Validity : 1d"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Start:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb12"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*8666*050#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Monthly Bundle-1 (24hr)"
+                android:background="@drawable/layout_custome_top"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="500 Min (Any) + 200 SMS + 200 MB"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Charge : 300tk \t Validity : 30d"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Start:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb13"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*8666*500#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Monthly Bundle-2 (24hr)"
+                android:background="@drawable/layout_custome_top"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="200 Min (Robi) + 199 Min (Any) + 399 SMS + 1 GB"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Charge : 449tk \t Validity : 30d"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Start:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb14"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*8666*79#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Monthly Bundle-3 (24hr)"
+                android:background="@drawable/layout_custome_top"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="300 Min (Robi) + 300 Min (Any) + 600 SMS + 16 GB"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Charge : 649tk \t Validity : 30d"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Start:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb15"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*8666*80#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="#d32f2f"
+                android:textStyle="bold"
+                android:text="Bundle Purchased Item Query Code:"
+                android:background="@drawable/layout_custome_top"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Robi Min:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb16"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*222*2#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Any Min:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb17"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*222*8#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="SMS:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb18"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*222*12#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight=".1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:padding="10dp"
+                    android:textSize="12sp"
+                    android:text="Internet:"/>
+                <LinearLayout
+                    android:layout_weight=".1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnBundleRb19"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:padding="5dp"
+                        android:textSize="12sp"
+                        android:text="*8444*88#"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+

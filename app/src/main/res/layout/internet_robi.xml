@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.beardedhen.androidbootstrap.BootstrapWell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:bootstrapSize="md">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Robi Internet Packages"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </com.beardedhen.androidbootstrap.BootstrapWell>
+
+        <com.beardedhen.androidbootstrap.BootstrapWell
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:bootstrapSize="sm">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Check Latest Internet Offer :  "
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnInternetRobi0"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/btn_ar_action"
+                    android:hint="P"
+                    android:text="@string/fa_automobile"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </com.beardedhen.androidbootstrap.BootstrapWell>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Volume"
+                android:textColor="#d32f2f"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Validity"
+                android:textColor="#d32f2f"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Price"
+                android:textColor="#d32f2f"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="USSD"
+                android:textColor="#d32f2f"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="7 MB" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="1d" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="2tk" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnInternetRobi1"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_ar_action"
+                    android:text="*8444*4#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="45 MB" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="1d" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="10tk" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnInternetRobi2"
+                    android:layout_width="85dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_ar_action"
+                    android:text="*8444*21#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="200 MB" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="7d" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="24tk" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnInternetRobi3"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_ar_action"
+                    android:text="*8444*2007#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="100 MB" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="10d" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="19tk" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnInternetRobi4"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_ar_action"
+                    android:text="*8444*10019#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="100 MB" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="28d" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="40tk" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnInternetRobi5"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_ar_action"
+                    android:text="*8444*100#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="250 MB" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="28d" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="75tk" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnInternetRobi6"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_ar_action"
+                    android:text="*8444*250#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="750 MB" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="28d" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="175tk" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnInternetRobi7"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_ar_action"
+                    android:text="*8444*500#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="1.5 GB" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="28d" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="275tk" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnInternetRobi8"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_ar_action"
+                    android:text="*8444*85#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="2.5 GB" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="28d" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="347tk" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnInternetRobi9"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_ar_action"
+                    android:text="*8444*92#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="26 GB" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="30d" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="949tk" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="@drawable/layout_custome_mid"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                    android:id="@+id/btnInternetRobi10"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/btn_ar_action"
+                    android:text="*8444*009#"
+                    android:textColor="#fff"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16sp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:background="@drawable/layout_custome_top"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Important Codes For All Packs"
+                android:textColor="#d32f2f"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:text="Check Internet Balance"/>
+
+                <LinearLayout
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_custome_mid">
+
+                    <com.moodybugs.saim.bdsimservices.ButtonAwesome
+                        android:id="@+id/btnInternetRobi11"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/btn_ar_action"
+                        android:textColor="#fff"
+                        android:textSize="10sp"
+                        android:text="*8444*88#"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

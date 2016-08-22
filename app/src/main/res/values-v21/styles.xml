@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeGp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#2196f3</item>
+        <item name="colorPrimaryDark">#1976d2</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeBl" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#ff5722</item>
+        <item name="colorPrimaryDark">#e64a19</item>
+        <item name="colorAccent">#3f51b5</item>
+    </style>
+
+    <style name="ThemeTeletalk" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#4caf50</item>
+        <item name="colorPrimaryDark">#388e3c</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeAirtel" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#d32f2f</item>
+        <item name="colorPrimaryDark">#b71c1c</item>
+        <item name="colorAccent">#4caf50</item>
+    </style>
+</resources>
